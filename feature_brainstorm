@@ -1,0 +1,6 @@
+tempo
+number of time signature changes
+numerator and denominator of starting time signature
+number of chord signature changes
+cumulative vector of length 12 for 12 semitones
+number/kind of instruments/divide data by kind of instrument

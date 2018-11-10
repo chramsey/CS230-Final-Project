@@ -13,7 +13,7 @@ for (x, y) in data:
 model = keras.Sequential([
     keras.layers.dense(input_shape=(10000,)),
     keras.layers.Dense(128, activation=tf.nn.relu),
-    keras.layers.Dense(10, activation=tf.nn.softmax)
+    keras.layers.Dense(4, activation=tf.nn.softmax)
 ])
 
 model.compile(optimizer=tf.train.AdamOptimizer(), 

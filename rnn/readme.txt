@@ -6,7 +6,7 @@ choose params in utils.py:
  - window size
  - fs (number of samples per second) 
 
-run github.py 
+run rnn.py 
  - this will load the data with those parameters
  - you will be prompted for values for hyperparameters before a model is trained. 
  - values will print and be logged to file (output_date_time)
